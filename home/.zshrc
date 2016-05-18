@@ -54,6 +54,11 @@ plugins=(git)
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH=~/bin:${PATH}
+export PATH="/usr/local/bin:/usr/local/sbin:${PATH}"
+export GOPATH=${HOME}/gopath
+export PATH=${PATH}:${GOPATH}/bin
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
