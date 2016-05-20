@@ -87,3 +87,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+# home directory application configuration SCM management
+# https://github.com/andsens/homeshick/
+source "$HOME/.homesick/repos/homeshick/homeshick.sh"
